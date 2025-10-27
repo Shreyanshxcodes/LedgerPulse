@@ -1,0 +1,17 @@
+{
+  "name": "ledgerpulse",
+  "version": "1.0.0",
+  "description": "A simple ledger tracking smart contract",
+  "main": "hardhat.config.js",
+  "scripts": {
+    "test": "npx hardhat test",
+    "deploy": "npx hardhat run scripts/deploy.js --network goerli"
+  },
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^3.0.0",
+    "chai": "^4.3.7",
+    "dotenv": "^16.3.1",
+    "ethers": "^6.6.0",
+    "hardhat": "^2.18.0"
+  }
+}
